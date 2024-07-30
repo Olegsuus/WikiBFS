@@ -19,7 +19,7 @@
 - `readableURL(encodedURL *string) (string, error)`: Декодирует URL, чтобы сделать его читаемым.
 - `fetchParagraphWithLink(currentURL, targetURL string) (string, error)`: Извлекает текст абзаца, содержащего ссылку на целевую страницу.
 - `readURLFromInput(prompt string) string`: Считывает URL с клавиатуры.
-- `initLogger() *log.Logger`: Настраивает и возвращает логгер для записи посещенных страниц.
+- `initLogger() `: Настраивает логгер для записи посещенных страниц.
 
 ## Как использовать
 
